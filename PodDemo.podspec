@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+    this is my first pod demo.
                    DESC
 
-  spec.homepage     = "http://naxtre.com"
+  spec.homepage     = "https://naxtre.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/PodDemo.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Anuj-naxtre/PodDemo.git", :tag => "#{1.0}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
