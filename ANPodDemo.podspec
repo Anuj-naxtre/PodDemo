@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint PodDemo.podspec' to ensure this is a
+#  Be sure to run `pod spec lint ANPodDemo.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "WSPodDemo"
+  spec.name         = "ANPodDemo"
   spec.version      = "1.0"
   spec.summary      = " this is my first pod demo in swift lang."
   spec.description  = <<-DESC
@@ -25,13 +25,13 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author             = { "anuj-naxtre" => "anuj.naxtre@gmail.com" }
-   spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/Anuj-naxtre/PodDemo.git", :tag => "1.0" }
-  spec.source_files  = "WSPodDemo"
+  spec.source_files  = "ANPodDemo"
   spec.swift_version = "5.0"
-  
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-
+ 
+ 
 end
