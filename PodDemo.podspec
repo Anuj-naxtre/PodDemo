@@ -18,7 +18,9 @@ Pod::Spec.new do |spec|
   spec.name         = "PodDemo"
   spec.version      = "1.0"
   spec.summary      = " this is my first pod demo in swift lang."
-  spec.description  = <<-DESC  new testing pod demo .   jkhs  hhhfhjfh hjhdf  f jdhf dfj hdf djfh DESC
+  spec.description  = <<-DESC
+    new testing pod demo .   jkhs  hhhfhjfh hjhdf  f jdhf dfj hdf djfh
+  DESC
   spec.homepage     = "https://naxtre.com"
   spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
@@ -26,7 +28,7 @@ Pod::Spec.new do |spec|
    spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/Anuj-naxtre/PodDemo.git", :tag => "spec.version.to_s" }
   spec.source_files  = "PodDemo"
-  #spec.swift_version = "5.0"
+  spec.swift_version = "5.0"
   
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
