@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "anuj-naxtre" => "anuj.naxtre@gmail.com" }
    spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/Anuj-naxtre/PodDemo.git", :tag => "1.0" }
-  spec.source_files  = "PodDemo"
+  spec.source_files  = "WSPodDemo"
   spec.swift_version = "5.0"
   
   # spec.framework  = "SomeFramework"
