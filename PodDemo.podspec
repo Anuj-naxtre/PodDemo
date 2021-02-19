@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PodDemo"
+  spec.name         = "WSPodDemo"
   spec.version      = "1.0"
   spec.summary      = " this is my first pod demo in swift lang."
   spec.description  = <<-DESC
