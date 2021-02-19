@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author             = { "anuj-naxtre" => "anuj.naxtre@gmail.com" }
    spec.platform     = :ios, "9.0"
-  spec.source       = { :git => "https://github.com/Anuj-naxtre/PodDemo.git", :tag => "spec.version.to_s" }
+  spec.source       = { :git => "https://github.com/Anuj-naxtre/PodDemo.git", :tag => "1.0" }
   spec.source_files  = "PodDemo"
   spec.swift_version = "5.0"
   
