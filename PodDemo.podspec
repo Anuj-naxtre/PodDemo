@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
    spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/Anuj-naxtre/PodDemo.git", :tag => "spec.version.to_s" }
   spec.source_files  = "PodDemo"
-  
+  spec.swift_version = "5.0"
   
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
